@@ -13,6 +13,7 @@
 
 ### **🎓 학력**
 - **한신대학교** AISW계열 (25학번)
+  - 1학년 1학기 학점: 4.35 / 4.5
 
 <br>
 
@@ -62,7 +63,6 @@
 
 - **Email**: <a href="mailto:jieunjungbein@gmail.com">jieunjungbein@gmail.com</a> | <a href="mailto:onnilin@hs.ac.kr">onnilin@hs.ac.kr</a>
 - **GitHub**: <a href="https://github.com/onnilin-gif">https://github.com/onnilin-gif</a>
-- **Blog**: `[ 기술 블로그 주소 (선택 사항) ]`
 
 </div>
 
