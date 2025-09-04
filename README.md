@@ -3,7 +3,7 @@
 # JieunJung_onnilin-git
 gitHUB Jieun main page
 
-# About me ⓙⓘⓔⓤⓝ
+# About me ⓙⓘⓝ
 
 한신대학교 AISW계열 25학번
 
