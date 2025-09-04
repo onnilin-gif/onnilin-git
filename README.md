@@ -7,7 +7,7 @@
 # 👩‍💻 About Me 
   
 > 안녕하세요! 저는 [ 하고싶은 말이나 좌우명 ] 을 추구하는 개발자 정지은입니다.
-> 현재 한신대학교 AISW계열에 재학 중이며, [ 자신의 관심 분야나 특기 ] 에 열정을 가지고 있습니다.
+> 현재 한신대학교 AISW계열에 재학 중이며, 특히 **웹 프로그래밍**과 **문제해결형 프로그래밍**에 열정을 가지고 공부하고 있습니다.
 
 <br>
 
@@ -22,15 +22,19 @@
 
 # 🛠️ Skills
 
-> 제가 다룰 수 있는 기술 스택입니다.
+> 제가 다룰 수 있는 기술과 현재 공부 중인 분야입니다.
 
 <br>
 
-- **Languages**: `[ 사용 가능한 언어, 예: Python, JavaScript ]`
-- **Frontend**: `[ 프론트엔드 기술, 예: React, Vue.js ]`
-- **Backend**: `[ 백엔드 기술, 예: Node.js, Django ]`
-- **Database**: `[ 데이터베이스 기술, 예: MySQL, MongoDB ]`
-- **Etc**: `[ 기타 기술, 예: Git, Docker ]`
+### **💻 Languages & Tools**
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> 
+<!-- 여기에 다른 기술 뱃지를 추가할 수 있습니다. 예: <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> -->
+
+<br>
+
+### **🌱 Currently Learning**
+- Web Programming
+- Problem-Solving Programming
 
 </div>
 
