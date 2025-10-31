@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=timeGradient&height=200&section=header&text=안녕하세요!%20정지은입니다&fontSize=50&animation=fadeIn&fontColor=0000FF" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&height=200&section=header&text=안녕하세요!%20정지은입니다&fontSize=50&animation=fadeIn&fontColor=0000FF" width="100%"/>
 </div>
 
 # 👩‍💻 About Me 
