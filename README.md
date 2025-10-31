@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&c1=222&c2=444&c3=222&height=200&section=header&text=안녕하세요!%20정지은입니다&fontSize=50&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&height=200&section=header&text=안녕하세요!%20정지은입니다&fontSize=50&animation=fadeIn" width="100%"/>
 </div>
 
 # 👩‍💻 About Me 
@@ -57,5 +57,5 @@
 <br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&c1=222&c2=444&c3=222&height=40&section=footer&text=&fontSize=0" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=40&section=footer&text=&fontSize=0" width="100%"/>
 </p>
