@@ -105,9 +105,76 @@ main > section, .main-grid { margin-bottom: 2.5rem; }
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-#profile .profile-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+#profile .profile-container {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 2.5rem;
+
+}
+
+
+
+#profile .profile-image-container {
+
+    flex-shrink: 0;
+
+}
+
+
+
+#profile .profile-image {
+
+    width: 150px;
+
+    height: 150px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 3px solid var(--border-color);
+
+    box-shadow: 0 4px 10px var(--shadow-color);
+
+}
+
+
+
+#profile .profile-details {
+
+    flex-grow: 1;
+
+}
+
+
+
+#profile .card-title {
+
+    margin-top: 0; /* Adjust title margin since it's no longer at the top of the card */
+
+}
+
+
+
+#profile .profile-grid { 
+
+    display: grid; 
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+
+    gap: 1rem; /* Reduced gap for tighter fit */
+
+}
+
+
+
 .profile-item { display: flex; align-items: center; gap: 1rem; font-size: 1rem; }
+
 .profile-item span { font-size: 1.5rem; }
+
 .profile-item strong { font-weight: 600; color: var(--primary-color); }
 
 .main-grid { display: grid; grid-template-columns: 1fr 280px; gap: 2.5rem; }
