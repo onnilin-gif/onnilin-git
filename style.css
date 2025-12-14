@@ -210,6 +210,10 @@ main > section, .main-grid { margin-bottom: 2.5rem; }
     padding: 2rem;
 }
 
+#academics canvas {
+    max-height: 350px; /* Adjust this value as needed */
+}
+
 footer { text-align: center; margin-top: 5rem; border-top: 1px solid var(--border-color); padding-top: 3rem; color: var(--text-color-light); }
 #contact p { font-size: 1.1rem; margin-bottom: 1.5rem; }
 .contact-links { display: flex; justify-content: center; gap: 1rem; }
