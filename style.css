@@ -177,7 +177,7 @@ main > section, .main-grid { margin-bottom: 2.5rem; }
 
 .profile-item strong { font-weight: 600; color: var(--primary-color); }
 
-.main-grid { display: grid; grid-template-columns: 1fr 280px; gap: 2.5rem; }
+.main-grid { display: grid; grid-template-columns: 1fr 320px; gap: 2.5rem; }
 .grid-left { display: flex; flex-direction: column; gap: 2.5rem; }
 .grid-right {}
 
@@ -191,17 +191,24 @@ main > section, .main-grid { margin-bottom: 2.5rem; }
 .progress-bar { width: 100%; height: 10px; background-color: var(--progress-bar-background); border-radius: 10px; overflow: hidden; }
 .progress { height: 100%; background-color: var(--accent-color); border-radius: 10px; transition: width 1s ease-in-out; }
 
-#metrics .metric-item { display: flex; align-items: center; justify-content: center; gap: 1.5rem; }
-.metric-icon { font-size: 3rem; }
-.metric-details { display: flex; flex-direction: column; }
-.metric-label { font-family: var(--mono-font); color: var(--text-color-light); font-size: 0.9rem; }
-.metric-value { font-family: var(--header-font); font-weight: 600; font-size: 2rem; color: var(--accent-color); }
+#dev-philosophy .philosophy-grid-condensed .philosophy-item {
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+#dev-philosophy .philosophy-grid-condensed .philosophy-item h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+}
+#dev-philosophy .philosophy-grid-condensed .philosophy-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--text-color-light);
+}
 
-#dev-philosophy .philosophy-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-.philosophy-item { padding: 1.5rem; }
-.philosophy-item h3 { margin: 0 0 0.5rem 0; font-size: 1.1rem; color: var(--primary-color); }
-.philosophy-item p { margin: 0; font-size: 0.95rem; color: var(--text-color-light); }
-
+#academics {
+    padding: 2rem;
+}
 
 footer { text-align: center; margin-top: 5rem; border-top: 1px solid var(--border-color); padding-top: 3rem; color: var(--text-color-light); }
 #contact p { font-size: 1.1rem; margin-bottom: 1.5rem; }
