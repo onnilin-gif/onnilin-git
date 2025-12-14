@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JieunJung | Junior Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
 <div class="container">
 
     <header>
-        <h1>JieunJung</h1>
-        <p>Junior Developer & AISW Student</p>
+        <div class="header-content">
+            <h1>JieunJung</h1>
+            <p>Junior Developer & AISW Student</p>
+        </div>
+        <div class="theme-switcher">
+            <i class="fa-solid fa-sun"></i>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle-checkbox">
+                <span class="slider"></span>
+            </label>
+            <i class="fa-solid fa-moon"></i>
+        </div>
     </header>
 
     <main>
@@ -26,16 +37,51 @@
             </div>
         </section>
 
-        <section id="metrics" class="card">
-             <h2 class="card-title">Key Metric</h2>
-            <div class="metric-item">
-                <span class="metric-icon">📈</span>
-                <div class="metric-details">
-                    <span class="metric-label">2025-1 GPA</span>
-                    <span class="metric-value">4.35 / 4.50</span>
-                </div>
+        <div class="main-grid">
+            <div class="grid-left">
+                <section id="skills" class="card">
+                    <h2 class="card-title">Tech Stack</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fa-brands fa-c-lang"></i><span>C</span></div>
+                        <div class="skill-item"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                        <div class="skill-item"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                    </div>
+                </section>
+                <section id="learning" class="card">
+                    <h2 class="card-title">Currently Learning</h2>
+                    <div class="learning-item">
+                        <div class="learning-info">
+                            <span class="learning-subject">Web Programming</span>
+                            <span class="learning-percent">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="learning-item">
+                        <div class="learning-info">
+                            <span class="learning-subject">Linear Algebra</span>
+                            <span class="learning-percent">60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
+            <div class="grid-right">
+                <section id="metrics" class="card">
+                     <h2 class="card-title">Key Metric</h2>
+                    <div class="metric-item">
+                        <span class="metric-icon">📈</span>
+                        <div class="metric-details">
+                            <span class="metric-label">2025-1 GPA</span>
+                            <span class="metric-value">4.35 / 4.50</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
 
         <section id="dev-philosophy">
             <h2>Dev Philosophy</h2>
@@ -58,33 +104,6 @@
                 </div>
             </div>
         </section>
-
-        <section id="projects">
-            <h2>Projects & Interests</h2>
-            <div class="gallery">
-                <div class="item">
-                    <div class="item-placeholder">Image</div>
-                    <div class="item-caption">
-                        <p class="item-caption-title">Vulnerability Analysis</p>
-                        <p>시스템의 잠재적 취약점을 분석하고, 선제적 방어 전략을 수립합니다.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item-placeholder">Data Viz</div>
-                    <div class="item-caption">
-                        <p class="item-caption-title">Log Data Analysis</p>
-                        <p>대규모 로그 데이터 속에서 이상 징후와 패턴을 시각화하고 분석합니다.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item-placeholder">Code</div>
-                    <div class="item-caption">
-                        <p class="item-caption-title">Clean Code</p>
-                        <p>가독성, 효율, 유지보수성을 고려한 클린 코드 작성에 가치를 둡니다.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -92,7 +111,7 @@
             <p>기회는 언제나 열려있습니다. 함께 성장할 분을 기다립니다.</p>
             <div class="contact-links">
                 <a href="mailto:jieunjungbein@gmail.com" class="contact-link">Email</a>
-                <a href="https://github.com/YOUR_GITHUB_USERNAME" class="contact-link github" target="_blank">GitHub</a>
+                <a href="https://github.com/onnilin-gif" class="contact-link github" target="_blank">GitHub</a>
             </div>
         </section>
         <p class="copyright">&copy; 2025 JieunJung. All rights reserved.</p>
