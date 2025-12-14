@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Noto+Sans+KR:wght@300;400&display=swap');
+
+:root {
+    --background-color: #121212;
+    --text-color: #E0E0E0;
+    --primary-color: #FFFFFF;
+    --accent-color: #00A8FF; /* Cobalt Blue */
+    --border-color: #333333;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header, main, footer {
+    width: 90%;
+    max-width: 800px;
+    padding: 2rem 0;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2rem;
+}
+
+header h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+header p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-top: 0.5rem;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#principles ol {
+    list-style: none;
+    padding-left: 0;
+    counter-reset: principle-counter;
+}
+
+#principles li {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 3rem;
+}
+
+#principles li::before {
+    counter-increment: principle-counter;
+    content: "Principle " counter(principle-counter, decimal-leading-zero) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+.observation {
+    border-left: 2px solid var(--border-color);
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.observation-title {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0 0 0.5rem 0;
+}
+
+#aesthetics .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+#aesthetics .item {
+    border: 1px solid var(--border-color);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    color: #666;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#aesthetics .item:hover {
+    background-color: var(--border-color);
+    color: var(--text-color);
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+}
+
+.contact-link {
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
